@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html,body{
+	
+	height: 100%;
+}
+
+#conteudo{
+	
+	height:100%;
+	width:900px;
+	margin-left:auto;
+	margin-right: auto;
+	border-left:1px #333 dashed;
+	border-right:1px #333 dashed;
+}
+#bannerOut{
+	position:relative;
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 300px;	
+}
+#bannerMaster{	
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 300px;	
+
+}
+#bannerOut span{
+	position:absolute;
+	background: rgb(0, 0, 0); 
+   	background: rgba(0, 0, 0, 0.3);
+	opaciy:0.2;
+	bottom:0;
+	left:0;
+	diplay:none;
+	width:780px;
+	padding:10px;
+	color:#FFF;	
+}
+.escondido{
+	display:none;
+}
+.visivel{
+	display:block;
+}
